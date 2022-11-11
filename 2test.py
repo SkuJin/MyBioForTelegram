@@ -60,8 +60,8 @@ class MyVizitkaMod(loader.Module):
                 validator=loader.validators.Series(min_len=0, max_len=2),
             ),
             loader.ConfigValue(
-                "share.creavite.co/sO33GHOE723sxdrw.png",
-                "share.creavite.co/sO33GHOE723sxdrw.png",
+                "file_url",
+                "https://i.imgur.com/NN09HJg.png",
                 lambda: "Direct link to photo/video/gif/music",
             ),
             loader.ConfigValue(
