@@ -61,12 +61,12 @@ class MyVizitkaMod(loader.Module):
             ),
             loader.ConfigValue(
                 "file_url",
-                "https://imageup.ru/img244/4068332/t5sv1tx-imgur.gif",
+                "share.creavite.co/sO33GHOE723sxdrw.png",
                 lambda: "Direct link to photo/video/gif/music",
             ),
             loader.ConfigValue(
                 "type_file",
-                "gif",
+                "photo",
                 lambda: "Type of file specified in file_url",
                 validator=loader.validators.Choice(["photo", "video", "audio", "gif"]),
             ),
@@ -137,7 +137,7 @@ class MyVizitkaMod(loader.Module):
                 prefix=prefix,
                 platform=platform,
             ),
-            "thumb": "https://imageup.ru/img244/4068332/t5sv1tx-imgur.gif",
+            "thumb": "share.creavite.co/sO33GHOE723sxdrw.png",
             "reply_markup": [
                 [
                     *([m[1]] if m[1] else []),
