@@ -137,7 +137,7 @@ class MyVizitkaMod(loader.Module):
                 prefix=prefix,
                 platform=platform,
             ),
-            "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Info_Simple_bw.svg/1200px-Info_Simple_bw.svg.png",
+            "thumb": "https://ibb.co/jrBtBM2",
             "reply_markup": [
                 [
                     *([m[1]] if m[1] else []),
