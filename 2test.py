@@ -137,7 +137,7 @@ class MyVizitkaMod(loader.Module):
                 prefix=prefix,
                 platform=platform,
             ),
-            "thumb": "https://ibb.co/jrBtBM2",
+            "thumb": "https://imageup.ru/img244/4068332/t5sv1tx-imgur.gif",
             "reply_markup": [
                 [
                     *([m[1]] if m[1] else []),
