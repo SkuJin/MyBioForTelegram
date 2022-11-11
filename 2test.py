@@ -66,7 +66,7 @@ class MyVizitkaMod(loader.Module):
             ),
             loader.ConfigValue(
                 "type_file",
-                "photo",
+                "gif",
                 lambda: "Type of file specified in file_url",
                 validator=loader.validators.Choice(["photo", "video", "audio", "gif"]),
             ),
