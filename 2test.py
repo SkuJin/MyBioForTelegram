@@ -61,7 +61,7 @@ class MyVizitkaMod(loader.Module):
             ),
             loader.ConfigValue(
                 "file_url",
-                "https://i.pinimg.com/564x/b9/30/e6/b930e6476d705d7e92f7b961e61d5141.jpg",
+                "https://raw.githubusercontent.com/SkuJin/MyBioForTelegram/main/2test.py",
                 lambda: "Direct link to photo/video/gif/music",
             ),
             loader.ConfigValue(
